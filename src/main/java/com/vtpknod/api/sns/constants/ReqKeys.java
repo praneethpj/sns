@@ -1,4 +1,4 @@
-package com.knod.sns.demo.constants;
+package com.vtpknod.api.sns.constants;
 
 public class ReqKeys {
 
@@ -6,6 +6,8 @@ public class ReqKeys {
     public static final String ACCESS_KEY="AKIAWKXR6H5SANBGYD4U";
 
     public static final String Topic_ARN="arn:aws:sns:us-east-2:435372834660:forsqs";
+
+
 
 
 }

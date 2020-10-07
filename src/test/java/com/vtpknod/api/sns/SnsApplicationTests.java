@@ -1,4 +1,4 @@
-package com.knod.sns.demo;
+package com.vtpknod.api.sns;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
