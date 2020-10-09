@@ -4,9 +4,9 @@ cloud:
       static: US_EAST_2
       auto: false
     credentials:
-      access-key: AKIAWKXR6H5SANBGYD4U
-      secret-key: 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
+      access-key: xxxxxx
+      secret-key: xxxxxx
 
     end-point:
-      uri: https://sqs.us-east-2.amazonaws.com/435372834660/queueforsnsp
+      uri: xxxxx
 
