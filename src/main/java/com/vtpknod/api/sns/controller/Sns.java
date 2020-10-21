@@ -36,6 +36,14 @@ public class Sns {
 
     }
 
+    @RequestMapping("/sendNotificationsObject/{msg}")
+    public String publishMessageToTopicByObject(@PathVariable Object msg){
+        PublishRequest publishRequest = new PublishRequest(ReqKeys.Topic_ARN,msg.toString(),"sb first msg");
+        snsClient.publish(publishRequest);
+        return "Notification send Successfully";
+
+    }
+
 
 
 
