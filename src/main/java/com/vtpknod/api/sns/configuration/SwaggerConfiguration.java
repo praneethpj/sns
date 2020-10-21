@@ -12,6 +12,6 @@ public class SwaggerConfiguration {
 
 
     private void apiInfo() {
-
+        //add tou swagger config informations
     }
 }
