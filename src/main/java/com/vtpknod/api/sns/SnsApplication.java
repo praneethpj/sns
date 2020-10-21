@@ -27,11 +27,7 @@ public class SnsApplication {
 
 
 
-//    @SqsListener("queueforsnsp")
-//    public void loadMessageFromSQS(String message){
-//        logger.info("GETMSG : "+message);
-//
-//    }
+
     public static void main(String[] args) {
         SpringApplication.run(SnsApplication.class, args);
 
